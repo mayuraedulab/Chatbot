@@ -1,43 +1,46 @@
-#Custom AI Chatbot
+# Custom AI Chatbot
 
-Welcome to the Custom AI Chatbot project! This chatbot is powered by advanced machine learning techniques and trained on a custom dataset to provide meaningful and context-aware responses. It's designed to interact with users, answer questions, and assist with tasks based on the information it has been trained on.
+Welcome to the **Custom AI Chatbot** project! This chatbot is powered by advanced machine learning techniques and trained on a custom dataset to provide meaningful and context-aware responses. It is designed to interact with users, answer questions, and assist with tasks based on the information it has been trained on.
 
-Features
-Custom Responses: The chatbot is trained on a custom dataset, allowing it to provide relevant and personalized responses.
-Vector Embedding: The chatbot leverages vector embeddings using Supabase and Pinecone to ensure fast and accurate retrieval of information from the embedded dataset.
-Advanced Model: Built on the Llama 70B model, offering state-of-the-art performance for natural language processing tasks.
-Real-time Interaction: The chatbot supports dynamic conversation, offering real-time responses to user queries.
+## Features
 
-Tech Stack
+- **Custom Responses**: Trained on a custom dataset, allowing the chatbot to provide relevant and personalized responses.
+- **Vector Embedding**: Utilizes **Supabase** and **Pinecone** for vector embeddings, enabling fast and accurate retrieval of information.
+- **Advanced Model**: Built on the **Llama 70B** model, providing state-of-the-art performance in natural language processing tasks.
+- **Real-time Interaction**: Supports dynamic conversation with real-time responses to user queries.
 
-Frontend:
-HTML: Structure for the user interface.
-CSS: Styling to make the chatbot UI attractive and responsive.
-JavaScript: For interaction and handling user input.
+## Tech Stack
 
-Backend:
-LangChain.js: Used to manage interactions between the user and the model, processing the input and generating responses.
-Supabase: Used for vector embedding storage, enabling efficient and quick retrieval of relevant data.
-Pinecone: Used to create embeddings, ensuring high-quality responses based on user queries.
+- **Frontend**:
+  - **HTML**: Provides the structure for the user interface.
+  - **CSS**: Styles the chatbot UI to be attractive and responsive.
+  - **JavaScript**: Handles user input and interaction logic.
 
-Deployment:
-Vercel: Deployed the chatbot on Vercel for seamless and scalable hosting.
+- **Backend**:
+  - **LangChain.js**: Manages interactions between the user and the model, processes input, and generates responses.
+  - **Supabase**: Stores vector embeddings to facilitate efficient and fast data retrieval.
+  - **Pinecone**: Used for creating and managing embeddings, ensuring accurate and context-based responses.
 
-How It Works
-The user interacts with the chatbot via an input field.
-User queries are processed and matched with the most relevant data from the custom dataset using vector embeddings.
-The chatbot uses the Llama 70B model to generate and deliver highly accurate and context-aware responses.
-The bot returns responses dynamically to the user based on the trained data.
+- **Deployment**:
+  - **Vercel**: The chatbot is hosted on Vercel, offering scalable and seamless deployment.
 
-Example Responses
+## How It Works
 
-User Query: "What is the function of the chatbot?"
-Chatbot Response: "The chatbot is designed to assist with tasks, answer questions, and provide helpful responses based on the data it has been trained on."
+1. **User Interaction**: The user types a query into the input field on the chatbot interface.
+2. **Query Processing**: The query is processed, and the most relevant data is fetched using vector embeddings from **Supabase** and **Pinecone**.
+3. **Response Generation**: The chatbot uses the **Llama 70B model** to generate a response based on the user's query.
+4. **Dynamic Response**: The chatbot provides a real-time, context-aware response to the user.
 
-User Query: "Tell me more about the tech stack used?"
-Chatbot Response: "This chatbot is built using LangChain.js for managing data flow, Supabase and Pinecone for vector embedding, and the Llama 70B model for natural language processing."
+## Example Responses
 
-Get Started
-Visit the deployed version of the chatbot here.
-Type a question or command into the input box and interact with the chatbot.
-Enjoy a seamless and personalized conversational experience powered by custom data and AI!
+- **User Query**: "What is the function of the chatbot?"
+  - **Chatbot Response**: "The chatbot is designed to assist with tasks, answer questions, and provide helpful responses based on the data it has been trained on."
+
+- **User Query**: "Tell me more about the tech stack used?"
+  - **Chatbot Response**: "This chatbot is built using LangChain.js for managing data flow, Supabase and Pinecone for vector embedding, and the Llama 70B model for natural language processing."
+
+## Get Started
+
+1. Visit the deployed version of the chatbot [here](https://chatbot-s54m.vercel.app).
+2. Type a question or command into the input box and interact with the chatbot.
+3. Enjoy a seamless and personalized conversational experience powered by custom data and AI!
