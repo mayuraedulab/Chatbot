@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.chat-container{
+    width: 500px;
+    height: 600px;
+    border: 3px solid;
+    border-radius: 20px;
+    border-color: 'blue';
+    background-color: rgba(223, 223, 223, 0.534);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#input-box{
+    width: 400px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+#butn{
+    position: relative;
+    left:400px;
+    padding:10px;
+    border: 1px solid;
+    border-radius: 30px;
+    bottom: 70px;
+}
+
