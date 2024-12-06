@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chatbot UI</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
 </head>
-
 <body>
-    <div class="container">
-        <div class="chat-container">
-            <div class="input-box">
-                <input type="text" id="input-box">
-                <button id="butn">Send</button>
-            </div>
+    <div class="chat-container">
+        <div class="messages" id="messages">
+            <!-- Messages will appear here -->
+        </div>
+        <div class="input-box">
+            <input type="text" id="input-box" placeholder="Ask me anything...">
+            <button id="butn">Send</button>
         </div>
     </div>
-</body>
 
+    <script src="index.js"></script>
+</body>
 </html>
